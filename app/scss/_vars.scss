@@ -1,0 +1,13 @@
+@mixin anim-arrow__down {
+    animation-duration: 1.5s;
+    animation-name: anim-arrow__down;
+    animation-fill-mode: forwards;
+}
+@keyframes anim-arrow__down{
+    0%{
+        left: 10px;
+    }
+    100%{
+        left: -3px;
+    }
+}

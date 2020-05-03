@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+form,
+input,
+button,
+select,
+option {
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-size: 13px;
+  color: #1f373d;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  padding-top: 95px;
+}
+.container {
+  max-width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.slick-slide,
+.slick-slide * {
+  outline: none !important;
+}
+.title {
+  color: #1f373d;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}

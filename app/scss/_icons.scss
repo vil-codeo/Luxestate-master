@@ -1,0 +1,93 @@
+.icon-map {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 27px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-map.svg);
+  }
+}
+.icon-phone {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-phone.svg);
+  }
+}
+.icon-search {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-search.svg);
+  }
+}
+.icon-arrow {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-arrow__down.svg);
+  }
+}
+.icon-shower {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-shower.svg);
+  }
+}
+.icon-hotel {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/icon-hotel.svg);
+  }
+}
+.icon-facebook {
+  width: 8px;
+  height: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/icon-facebook.svg);
+}
+.icon-twitter {
+  width: 17px;
+  height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/icon-twitter.svg);
+}
+.icon-dribbble {
+  width: 17px;
+  height: 17px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/icon-dribbble.svg);
+}
